@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "config:base"
+    ],
+    "assignAutomerge": true,
+    "enabledManagers": [
+        "composer"
+    ],
+    "dependencyDashboard": true,
+    "rangeStrategy": "update-lockfile",
+    "rebaseWhen": "conflicted",
+    "schedule": [
+        "after 7am and before 4pm every weekday"
+    ],
+    "timezone": "Europe/Amsterdam",
+    "updateNotScheduled": false
+}
